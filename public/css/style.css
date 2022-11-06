@@ -1,0 +1,117 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #0070D1;
+}
+
+.navbar-nav li a {
+    color: white;
+    font-size: 16px;
+}
+
+.navbar-nav li a:hover {
+    color: black;
+}
+
+footer {
+    color: white;
+    font-size: 16px;
+    background-color: #0070D1;
+}
+
+.card_header {
+    background-color: #0070D1 !important; 
+}
+
+.login-page {
+    margin-top: 150px;
+    margin-bottom: 250px;
+}
+
+.register-page {
+    margin-top: 150px;
+    margin-bottom: 250px;
+}
+
+.forgot-password-page {
+    margin-top: 150px;
+    margin-bottom: 400px;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.alien-image {
+    width: 500px;
+    margin: auto;
+    display: block;
+}
+
+.rog {
+    margin: auto;
+    display: block;
+}
+
+/* Feedback */
+.feedback-title {
+    font-size: 22px;
+}
+
+.feedback-text {
+    font-size: 22px;
+}
+
+.feedback-icons {
+    font-size: 22px;
+}
+
+/* Social Icons Footer */
+.social-icons i {
+    margin-right: 20px;
+}
+
+.fb:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+.yt:hover {
+    color: #FF0000;
+    cursor: pointer;
+}
+
+.twt:hover {
+    color: #00acee;
+    cursor: pointer;
+}
+
+.tw:hover {
+    color: #6441a5;
+    cursor: pointer;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    footer {
+        display: block;
+    }
+    .alien-image {
+        width: 100%;
+    }
+    .rog {
+        width: 100%;
+    }
+}

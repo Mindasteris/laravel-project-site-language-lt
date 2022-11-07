@@ -1,4 +1,4 @@
-# Laravel project website about Kompiuteriniai Žaidimai.
+# Laravel project website about Kompiuteriniai Žaidimai. 
 
 1. When you download this project: In the project directory
 run CMD command: composer update (composer must be installed globally on your windows machine before command "composer update" would work).
